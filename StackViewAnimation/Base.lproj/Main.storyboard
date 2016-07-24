@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11173.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackViewAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eHV-zd-Iyd">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVr-Tm-7hN">
+                                        <state key="normal" title="⚙"/>
+                                        <connections>
+                                            <action selector="onSettingsButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJf-YA-0eW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAD-Si-tL5">
+                                        <state key="normal" title="😎"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNg-jX-BRB">
+                                        <state key="normal" title="🤓"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCH-KF-4Ev">
+                                        <state key="normal" title="😇"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJX-TG-0ov">
+                                        <state key="normal" title="😱"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5h-hH-kqP">
+                                        <state key="normal" title="🤔"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autolayout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jr6-gb-o9Q">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StackView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qP-BQ-6DN">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXj-xk-VfZ">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psM-vA-aEH">
+                                        <state key="normal" title="⚙"/>
+                                        <connections>
+                                            <action selector="onSettingsAutoLayoutButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ll-nw-JUW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cw5-g2-eya">
+                                        <state key="normal" title="😎"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XER-PR-PDt">
+                                        <state key="normal" title="🤓"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqr-ki-Byt">
+                                        <state key="normal" title="😇"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRU-zc-Oya">
+                                        <state key="normal" title="😱"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VN-S6-37t">
+                                        <state key="normal" title="🤔"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="4VN-S6-37t" firstAttribute="leading" secondItem="nXj-xk-VfZ" secondAttribute="leading" id="3Th-Tc-s1T"/>
+                                    <constraint firstItem="XER-PR-PDt" firstAttribute="leading" secondItem="nXj-xk-VfZ" secondAttribute="leading" id="44f-Jn-lEt"/>
+                                    <constraint firstItem="Cw5-g2-eya" firstAttribute="leading" secondItem="nXj-xk-VfZ" secondAttribute="leading" id="5qc-ND-Co2"/>
+                                    <constraint firstItem="Oqr-ki-Byt" firstAttribute="leading" secondItem="nXj-xk-VfZ" secondAttribute="leading" id="9Xz-Gn-s12"/>
+                                    <constraint firstItem="QRU-zc-Oya" firstAttribute="top" secondItem="Oqr-ki-Byt" secondAttribute="bottom" id="MYL-7G-om5"/>
+                                    <constraint firstItem="Cw5-g2-eya" firstAttribute="top" secondItem="psM-vA-aEH" secondAttribute="bottom" id="Mgh-hV-qKT"/>
+                                    <constraint firstItem="4VN-S6-37t" firstAttribute="top" secondItem="QRU-zc-Oya" secondAttribute="bottom" id="YbY-s4-Az6"/>
+                                    <constraint firstItem="psM-vA-aEH" firstAttribute="top" secondItem="nXj-xk-VfZ" secondAttribute="top" id="ZH6-bZ-G5T"/>
+                                    <constraint firstItem="psM-vA-aEH" firstAttribute="leading" secondItem="nXj-xk-VfZ" secondAttribute="leading" id="fvj-ey-TOF"/>
+                                    <constraint firstItem="XER-PR-PDt" firstAttribute="top" secondItem="Cw5-g2-eya" secondAttribute="bottom" id="fzP-SE-dRN"/>
+                                    <constraint firstAttribute="height" constant="180" id="gaP-kj-lXW"/>
+                                    <constraint firstItem="Oqr-ki-Byt" firstAttribute="top" secondItem="XER-PR-PDt" secondAttribute="bottom" id="hdD-UB-WqO"/>
+                                    <constraint firstAttribute="width" constant="60" id="jNH-bc-xAa"/>
+                                    <constraint firstItem="QRU-zc-Oya" firstAttribute="leading" secondItem="nXj-xk-VfZ" secondAttribute="leading" id="mhg-aw-Rfc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80659924509579106" green="0.59651158724906561" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0qP-BQ-6DN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="5K6-K0-Cfn"/>
+                            <constraint firstItem="nXj-xk-VfZ" firstAttribute="top" secondItem="jr6-gb-o9Q" secondAttribute="bottom" constant="8" id="78I-6o-nrt"/>
+                            <constraint firstAttribute="trailing" secondItem="0qP-BQ-6DN" secondAttribute="trailing" id="EPg-lQ-HZn"/>
+                            <constraint firstItem="eHV-zd-Iyd" firstAttribute="top" secondItem="0qP-BQ-6DN" secondAttribute="bottom" constant="8" id="Te0-LD-dvh"/>
+                            <constraint firstItem="jr6-gb-o9Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UhR-2H-lkw"/>
+                            <constraint firstAttribute="trailing" secondItem="eHV-zd-Iyd" secondAttribute="trailing" id="aK2-fx-8Yh"/>
+                            <constraint firstItem="jr6-gb-o9Q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="60" id="elQ-3l-Y1p"/>
+                            <constraint firstItem="nXj-xk-VfZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fM4-LD-cUd"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outletCollection property="emojiButtons" destination="dAD-Si-tL5" collectionClass="NSMutableArray" id="dwN-tw-HpB"/>
+                        <outletCollection property="emojiButtons" destination="sNg-jX-BRB" collectionClass="NSMutableArray" id="EMR-3v-ros"/>
+                        <outletCollection property="emojiButtons" destination="jCH-KF-4Ev" collectionClass="NSMutableArray" id="Aqk-Kc-YOP"/>
+                        <outletCollection property="emojiButtons" destination="pJX-TG-0ov" collectionClass="NSMutableArray" id="U0B-CX-Iyg"/>
+                        <outletCollection property="emojiButtons" destination="q5h-hH-kqP" collectionClass="NSMutableArray" id="aZM-cD-84b"/>
+                        <outletCollection property="emojiButtonsAutolayout" destination="XER-PR-PDt" collectionClass="NSMutableArray" id="fK4-uO-elM"/>
+                        <outletCollection property="emojiButtonsAutolayout" destination="Cw5-g2-eya" collectionClass="NSMutableArray" id="RIo-8N-z1D"/>
+                        <outletCollection property="emojiButtonsAutolayout" destination="Oqr-ki-Byt" collectionClass="NSMutableArray" id="XZt-gB-PU5"/>
+                        <outletCollection property="emojiButtonsAutolayout" destination="QRU-zc-Oya" collectionClass="NSMutableArray" id="VGW-al-0QH"/>
+                        <outletCollection property="emojiButtonsAutolayout" destination="4VN-S6-37t" collectionClass="NSMutableArray" id="kv1-cl-XFK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="114"/>
+        </scene>
+    </scenes>
+</document>
